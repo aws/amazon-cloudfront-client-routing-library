@@ -1,0 +1,13 @@
+[package]
+name = "amazon-cloudfront-client-routing-lib"
+version = "1.0.0"
+edition = "2021"
+
+publish = false
+
+[lib]
+name ="amazon_cloudfront_client_routing_lib"
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+twox-hash = "1.6.3"
