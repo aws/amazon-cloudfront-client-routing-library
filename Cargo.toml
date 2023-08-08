@@ -1,9 +1,12 @@
 [package]
 name = "amazon-cloudfront-client-routing-lib"
+description = "a library to encode and decode dns labels"
 version = "1.0.0"
 edition = "2021"
-
-publish = false
+rust-version = "1.63"
+repository = "https://github.com/aws/amazon-cloudfront-client-routing-library"
+license = "Apache-2.0"
+readme = "README.md"
 
 [lib]
 name ="amazon_cloudfront_client_routing_lib"
